@@ -1,2 +1,2 @@
 #!/bin/bash
-pgrep | >cat /etc/passwd
+pgrep bin | cat | wc /etc/passwd
